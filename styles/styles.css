@@ -10,25 +10,22 @@
     flex-direction: row;
     padding-top: 10px;
     padding-left: 22px;
-    position: relative;
 }
 
 .icons-left{
-    position: absolute;
     width: 15px;
     height: 17px;
     padding-top: 5px;
     left: 30px;
+    padding-left: 10px;
 }
 .logo-youtube{
     display: inline-flex;
-    padding-left: 20px;
     display: flex;
-    position: absolute; 
 }
 
 .logo-youtube a{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Anton', sans-serif;
     text-decoration: none;
     color: black;
@@ -44,9 +41,9 @@
     width: 600px;
     height: 38px;
     display: flex;
-    position: absolute;
     right: 440px;
-    top:14px
+    top:14px;
+    padding-left: 180px;
 }
 
 .box-searcher{
@@ -61,29 +58,20 @@
     text-decoration: none;
     padding-left: 5px;
     color:grey;
-    position: absolute;
 }
 
 .box-lens{
     width: 59px;
     height: 29px;
-    position: absolute;
     border: solid rgb(202, 202, 202) 1px;
     border-left: none;
     left:572px;
     display: flex;
 }
 .icons-rigth{
-    position: absolute;
-    display:flex;
-    justify-content: flex-end;
-
-}
-
-.icon-videocam{
-    width: 15px;
-    height: 17px;
-    position: absolute;
-    display: flex;
-
+        width: 214px;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 161px;
 }
