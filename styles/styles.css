@@ -11,13 +11,11 @@
     padding-top: 10px;
     padding-left: 22px;
     position: relative;
-    justify-content: space-between;
 
 }
 
 .icons-left{
     position: absolute;
-    flex-direction: row;
     display: inline-flex;
 }
 
@@ -38,19 +36,53 @@
     font-family: 'Anton', sans-serif;
     display: inline-block;
     padding-left: 80px;
+    position: absolute;
 
 }
 
 .searcher{
     width: 600px;
-    height: 28px;
-    border: solid gray 1px;
-    display: inline-block;
-    align-content: center;
+    height: 38px;
+    display: flex;
+    position: absolute;
+    right: 440px;
+    top:14px
 }
 
-.searcher p{
+.box-searcher{
+    width: 570px;
+    height: 29px;
+    border: solid rgb(202, 202, 202) 1px;
+}
+
+.box-searcher a{
     font-family: 'Roboto', sans serif;
     font-size: 15px;
-    justify-content: flex-start;
+    text-decoration: none;
+    padding-left: 5px;
+    color:grey;
+    position: absolute;
+}
+
+.box-lens{
+    width: 59px;
+    height: 29px;
+    position: absolute;
+    border: solid rgb(202, 202, 202) 1px;
+    border-left: none;
+    left:572px;
+    display: flex;
+}
+.icons-rigth{
+    position: absolute;
+    display:flex;
+    align-content: flex-end;
+
+}
+
+.icon-videocam{
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    display: flex;
 }
