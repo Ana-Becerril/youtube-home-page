@@ -50,6 +50,8 @@
     width: 570px;
     height: 29px;
     border: solid rgb(202, 202, 202) 1px;
+    display: flex;
+    align-items: center;
 }
 
 .box-searcher a{
@@ -67,6 +69,9 @@
     border-left: none;
     left:572px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .icons-rigth{
@@ -79,9 +84,94 @@
 }
 
 .box-one{
-    background-color: red;
     width: 65%;
     float:left;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 40px;
+
+}
+
+.box-video{
+    display:flex;
+   }
+
+.video-data{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.video-data a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans serif;
+    font-size: 19px;
+    font-weight:bold;
+}
+
+.video-data-lower{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    display:inline-flex;
+}
+
+.visit-counter{
+    width: 380px;
+    height: 40px;
+    display: flex;
+}
+
+.visit-counter a{
+    text-decoration: none;
+    color:gray;
+    font-family:'Roboto', sans serif;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.likes-counter{
+    width: 420px;
+    height: 40px;
+    display: flex;
+    padding-left: 16px;
+}
+
+.icon-like{
+    width:67px;
+    height: 17px;
+}
+
+.likes-counter a{
+    text-decoration: none;
+    color:gray;
+    font-family:'Roboto', sans serif;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.icon-dislike{
+    width:67px;
+    height: 17px;
+    padding-left: 24px;
+}
+
+.icon-share{
+    width:113px;
+    height: 17px;
+}
+
+.icon-save{
+    width:110px;
+    height: 17px; 
+}
+
+.icon-dots{
+    width:30px;
+    height: 17px;
 }
 
 .box-two{
@@ -89,3 +179,5 @@
     width: 35%;
     float:right;
 }
+
+
