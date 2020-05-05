@@ -93,14 +93,6 @@
 
 }
 
-.box-two{
-    width: 32%;
-    justify-content: center;
-    float: right;
-    margin-right: 30px;
-    height: 450px;
-}
-
 .box-video{
     display:flex;
    }
@@ -181,6 +173,53 @@
 .icon-dots{
     width:30px;
     height: 17px;
+}
+
+.data-author-container{
+    width: 830px;
+    height: 200px;
+    margin-top: 5px;
+    border: solid rgb(202, 202, 202) 1px;
+    border-left: none;
+    border-right: none;
+    display: inline-block;
+}
+
+.data-author{
+    width: 680px;
+    height: 200px;
+}
+
+.icon-user-autor{
+    display: inline-block;
+}
+
+.author{
+    width: 500px;
+    height: 50px;
+    margin-top:20px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.author a{
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto', sans serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.subscribe-button{
+
+}
+
+.box-two{
+    width: 32%;
+    justify-content: center;
+    float: right;
+    margin-right: 30px;
+    height: 450px;
 }
 
 .playlist-top{
