@@ -195,10 +195,10 @@
 }
 
 .author{
-    width: 500px;
+    width: 820px;
     height: 50px;
     margin-top:20px;
-    display: inline-block;
+    display: inline-flex;
     justify-content: space-between;
 }
 
@@ -208,11 +208,22 @@
     font-family:'Roboto', sans serif;
     font-size: 15px;
     font-weight:bold;
+    display: inline-block;
 }
 
 .subscribe-button{
-
+    width:118px;
+    height: 35px;
+    background-color: rgb(200, 13, 13);
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.subscribe-button a{
+    color: white;
+}
+
 
 .box-two{
     width: 32%;
@@ -258,6 +269,8 @@
     width: 425px;
     height: 130px;
     display:inline-flex;
+    border-bottom: solid rgb(202, 202, 202) 1px;
+
 }
 
 .playlist a{
@@ -273,4 +286,8 @@
         height: 130px;
         display: flex;
         margin-left: 9px;
+}
+
+.video-description a{
+    color: black;
 }
