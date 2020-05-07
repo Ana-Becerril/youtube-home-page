@@ -257,6 +257,29 @@
     margin-right: 37px;
 }
 
+.comments{
+    width: 830px;
+    height: 50px;
+    display:inline-flex;
+    align-items: center;  
+}
+
+.comments a{
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto', sans serif;
+    font-size: 14px;
+    font-weight:bold;
+    margin-right: 37px;
+
+}
+
+.separator{
+    width: 830px;
+    height: 1px;
+    border-top: solid rgb(202, 202, 202) 1px;
+}
+
 .box-two{
     width: 32%;
     justify-content: center;
