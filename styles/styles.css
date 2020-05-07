@@ -260,7 +260,6 @@
 .comments{
     width: 830px;
     height: 50px;
-    display:inline-flex;
     align-items: center;  
 }
 
@@ -274,10 +273,28 @@
 
 }
 
-.separator{
+.add-a-comment{
     width: 830px;
-    height: 1px;
-    border-top: solid rgb(202, 202, 202) 1px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.user1{
+    width: 57px;
+    height: 46px;
+}
+
+.message-comment{
+    width: 773px;
+    height: 24px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin-bottom: 13px;
+}
+
+.comments-users{
+    width:830px;
+    
 }
 
 .box-two{
