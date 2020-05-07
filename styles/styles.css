@@ -224,6 +224,38 @@
     color: white;
 }
 
+.description-box{
+    width: 680px;
+    height: 118px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-box a{
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto', sans serif;
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 3em;
+}
+
+.top-comments{
+    width: 830px;
+    height: 50px;
+    display:inline-flex;
+    align-items: center;
+}
+
+.top-comments a{
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto', sans serif;
+    font-size: 15px;
+    font-weight:bold;
+    margin-right: 37px;
+}
 
 .box-two{
     width: 32%;
