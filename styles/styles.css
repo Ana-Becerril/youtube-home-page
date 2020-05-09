@@ -3,6 +3,10 @@
     padding:0; 
   }
 
+  body{
+    overflow-x: hidden;
+  }
+
 .searcher-container{
     width: 100%;
     height: 80px;
