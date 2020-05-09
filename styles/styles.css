@@ -352,31 +352,35 @@
 
 .playlist{
     width: 425px;
-    height: 130px;
+    height: 118px;
     display:inline-flex;
     border-bottom: solid rgb(202, 202, 202) 1px;
 
 }
 
-.playlist a{
-    text-decoration: none;
-    color:gray;
-    font-family:'Roboto', sans serif;
-    font-size: 15px;
-    font-weight:bold;
-}
-
 .video-description{
-        width: 192px;
-        height: 130px;
-        display: flex;
+        width: 237px;
+        height: 100px;
+        display: inline-block;
         margin-left: 9px;
-}
+        font-weight: bold;
+        line-height:0.5cm;
 
-.video-description a{
-    color: black;
 }
 
 .playlist-bottom{
-    margin-top: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos{
+    display: inline-flex;
+    width: 566px;
+    height: 110px;
+    line-height:0.5cm;
+}
+
+.video{
+    display:inline-block;
 }
