@@ -294,7 +294,20 @@
 
 .comments-users{
     width:830px;
-    
+    line-height: 1.5em;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.comment1{
+    width: 800px;
+    height: 100px;
+    display: inline-flex;
+}
+
+.profile-photo{
+    width: 52px;
+    height: 53px;
 }
 
 .box-two{
